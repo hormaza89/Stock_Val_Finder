@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: StockValuationFinder
+    name: stock-valuation-finder
     env: python
     plan: free
-    buildCommand: ""
+    buildCommand: "pip install -r requirements.txt"
     startCommand: python Valuation_Finder.py
