@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: StockValuationFinder
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python Valuation_Finder.py
