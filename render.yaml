@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: python Valuation_Finder.py
+    startCommand: "gunicorn  Valuation_Finder:server"
