@@ -12,6 +12,7 @@ market_df = market_df.rename(columns={'TICKERS': 'Ticker'})
 
 # Initialize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
 
 # Define the layout with dropdowns and graphs
 app.layout = dbc.Container([
