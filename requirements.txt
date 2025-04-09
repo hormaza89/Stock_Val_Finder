@@ -147,3 +147,4 @@ yahoo-fin==0.8.9.1
 yahoofinance==0.0.2
 yfinance==0.2.44
 zipp==3.20.2
+gunicorn
